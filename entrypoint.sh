@@ -18,7 +18,7 @@ dir=${GOPATH}/src/github.com/WangXiangUSTC/chaos-ci-lib
 
 if [ ! -d $dir ]
 then
-  git clone -b v0.1.1 --single-branch  https://github.com/WangXiangUSTC/chaos-ci-lib.git
+  git clone -b v2.0.0 --single-branch  https://github.com/WangXiangUSTC/chaos-ci-lib.git
 fi
 cd chaos-ci-lib
 
