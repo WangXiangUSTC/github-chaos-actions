@@ -12,13 +12,13 @@ echo "$KUBE_CONFIG_DATA" | base64 --decode > ${HOME}/.kube/config
 export KUBECONFIG=${HOME}/.kube/config
 
 ##Setup 
-mkdir -p $HOME/go/src/github.com/mayadata-io
-cd ${GOPATH}/src/github.com/mayadata-io/
-dir=${GOPATH}/src/github.com/mayadata-io/chaos-ci-lib
+mkdir -p $HOME/go/src/github.com/WangXiangUSTC
+cd ${GOPATH}/src/github.com/WangXiangUSTC/
+dir=${GOPATH}/src/github.com/WangXiangUSTC/chaos-ci-lib
 
 if [ ! -d $dir ]
 then
-  git clone -b v0.1.1 --single-branch  https://github.com/mayadata-io/chaos-ci-lib.git
+  git clone -b v0.1.1 --single-branch  https://github.com/WangXiangUSTC/chaos-ci-lib.git
 fi
 cd chaos-ci-lib
 
